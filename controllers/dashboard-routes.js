@@ -32,6 +32,7 @@ router.get("/", withAuth, (req, res) => {
       res.status(500).json(err);
     });
 });
+
 router.get("/edit/:id", withAuth, (req, res) => {
   Post.findOne({
     where: {
@@ -67,8 +68,9 @@ router.get("/edit/:id", withAuth, (req, res) => {
       res.status(500).json(err);
     });
 });
+
 router.get("/new", (req, res) => {
-  res.render("new-post");
+  res.render("add-post");
 });
 
 module.exports = router;
