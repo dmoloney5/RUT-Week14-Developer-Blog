@@ -11,10 +11,12 @@
   * [License](#License)
   
   ## Installation
+  <ol>
   1: create your .env file with DB_name, User and Password to allow you to connect to your DB
   2: In server.js change force: to true to allow the connection.js file to remove the DB and added it again.  Make sure you change it to false before     re-running the program again or you will start from the beginning.
   3: Inisde a terminal windows type "NPM start" to activate the program
   4: Now open http://localhost:3001
+ </ol>
 
   ## Credit
   Dennis Moloney
